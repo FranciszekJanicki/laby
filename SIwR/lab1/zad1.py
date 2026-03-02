@@ -2,17 +2,15 @@
 
 import numpy as np
 
-# P_cav = P(A)
-# P_tooth = P(B)
+def zad1_2(P_cav_too_cat : np.array):
+    P_cav_too = np.sum(P_cav_too_cat, axis=-1)
+
 
 def main():
-    P1 =	[[0.108, 0.012], [0.016, 0.064]]
-    P2 = [[0.072, 0.008], [0.144, 0.576]]
-    
-    P_cav = np.sum(P1)
-    P_tooth = np.sum(P2)
-
-    print((P_cav, P_tooth))
+    P_cav_too_cat = np.array([[[0.108, 0.012], [0.072, 0.008]],
+                            [[0.016, 0.064], [0.144, 0.576]]])
+        
+    print((P_cav, P_too))
 
 if __name__ == '__main__':
     main()
