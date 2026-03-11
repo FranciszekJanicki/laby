@@ -1,0 +1,16 @@
+from sklearn.tree import DecisionTreeClassifier
+
+X = [[0, 0],
+     [0, 1],
+     [1, 0],
+     [1, 1]]
+
+y = [0, 1, 1, 1]
+
+clf = DecisionTreeClassifier()
+
+clf.fit(X, y)
+
+print(clf.predict([[1, 1]]))
+print(clf.predict([[0, 1]]))
+print(clf.predict([[0, 0]]))

@@ -1,0 +1,13 @@
+from sklearn.tree import DecisionTreeClassifier
+
+
+X = [[0, 0],
+     [0, 1],
+     [1, 0],
+     [1, 1]]
+y = [0, 0, 0, 1]
+
+clf = DecisionTreeClassifier()
+clf.fit(X, y)
+
+print(clf.predict([[1, 1]]))   # SprawdŸ sam(a) jakie bêd¹ wyniki dla innych danych wejœciowych.

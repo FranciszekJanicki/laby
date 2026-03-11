@@ -1,0 +1,23 @@
+Wyprowadzdnie rownan dynamiki manipulatora za pomoca Langrangnianu (zasada zachowania energii i rownowagi sumy
+energii kinetycznej i potencjalnej), rownania stanu wynikowo po wyciagnieciu zmiennych stanu (pozycji q oraz ich pochodnych)
+przed nawias w rownaniach
+
+x_prim = f(x) + g(x) * u
+u = 1 / g(x) * (v - f(x)), gdzie x_prim = v, a u to sterowanie, natomiast v to sygnal zadany
+podstawiaj¹c rownanie drugie do rownania pierwszego 
+x_prim = f(x) + g(x) / g(x) * (v - f(x))
+x_prim = v + F(x,u,d), gdzie F to funkcja dynamiki, sterowan, zaklocen
+dla regulatora pd:
+v = q_ref_prim_prim + K_d * (q_prim - q_ref_prim) + K_p * (q - q_ref), gdzie q - q_ref to -1 * uchyb
+
+wielomian trzeciego rzedu do wyznaczenia trajektorii q_ref -> q_ref(t) = a_3 * t^3 + a_2 * t^2 + a_1 * t + a_0
+do wyznaczenia jego wspolczynnikow nalezy zalozyc jakies warunki brzegowe (poczatkowe i koncowe wartosci q_ref, q_ref_prim, q_ref_prim_prim)
+q_ref_prim(t) = a_3 * 3 * t^2 + a_2 * 2 * t + a_1
+q_ref_prim_prim(t) = a_3 * 6 * t + a_2 * 2
+teraz podstawiaj¹c pod t t_start i t_end wyznaczamy a_3, a_2, a_1, a_0
+
+Skomplikowana nieliniowa dynamika pierwotna jest linearyzowana rownaniem u = 1/g(x) * (v-f(x)) i upraszczana
+Calosc nazywa sie FLC, czyli zastosowanie jakiegos sterownika liniowego (tutaj PD) to systemu nieliniowego poprzez
+linearyzacje przez podstawienie
+
+Jak nie ma podanych warunkow brzegowych predkosci i przyspiszenia to przyjmujesz 0
