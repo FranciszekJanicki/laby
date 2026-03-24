@@ -1,0 +1,4 @@
+[console_scripts]
+turtle_distance = turtlesim_operations.turtle_distance:main
+turtle_trajectory = turtlesim_operations.turtle_trajectory:main
+

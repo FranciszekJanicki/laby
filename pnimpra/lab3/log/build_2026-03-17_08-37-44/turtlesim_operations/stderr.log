@@ -1,0 +1,2 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:355: UserWarning: Unbuilt egg for consecutive-numbers [unknown version] (/home/student/Documents/pnimpra/lab3/ros2_ws/build/consecutive_numbers)
+  self.local_index = Environment(self.shadow_path + sys.path)

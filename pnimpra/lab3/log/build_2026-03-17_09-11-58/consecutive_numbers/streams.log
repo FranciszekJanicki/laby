@@ -1,0 +1,18 @@
+[1.269s] Invoking command in '/home/student/Documents/pnimpra/lab3/ros2_ws/build/consecutive_numbers': PYTHONPATH=/home/student/Documents/pnimpra/lab3/ros2_ws/build/consecutive_numbers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Documents/pnimpra/lab3/ros2_ws/install/consecutive_numbers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/Documents/pnimpra/lab3/ros2_ws/build/consecutive_numbers/build --no-deps symlink_data
+[1.564s] running develop
+[1.760s] running egg_info
+[1.761s] writing consecutive_numbers.egg-info/PKG-INFO
+[1.761s] writing dependency_links to consecutive_numbers.egg-info/dependency_links.txt
+[1.762s] writing entry points to consecutive_numbers.egg-info/entry_points.txt
+[1.762s] writing requirements to consecutive_numbers.egg-info/requires.txt
+[1.762s] writing top-level names to consecutive_numbers.egg-info/top_level.txt
+[1.764s] reading manifest file 'consecutive_numbers.egg-info/SOURCES.txt'
+[1.765s] writing manifest file 'consecutive_numbers.egg-info/SOURCES.txt'
+[1.767s] running build_ext
+[1.767s] Creating /home/student/Documents/pnimpra/lab3/ros2_ws/install/consecutive_numbers/lib/python3.10/site-packages/consecutive-numbers.egg-link (link to .)
+[1.768s] Installing random_numbers script to /home/student/Documents/pnimpra/lab3/ros2_ws/install/consecutive_numbers/lib/consecutive_numbers
+[1.769s] Installing sum_next_numbers script to /home/student/Documents/pnimpra/lab3/ros2_ws/install/consecutive_numbers/lib/consecutive_numbers
+[1.769s] 
+[1.769s] Installed /home/student/Documents/pnimpra/lab3/ros2_ws/build/consecutive_numbers
+[1.770s] running symlink_data
+[1.807s] Invoked command in '/home/student/Documents/pnimpra/lab3/ros2_ws/build/consecutive_numbers' returned '0': PYTHONPATH=/home/student/Documents/pnimpra/lab3/ros2_ws/build/consecutive_numbers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Documents/pnimpra/lab3/ros2_ws/install/consecutive_numbers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/Documents/pnimpra/lab3/ros2_ws/build/consecutive_numbers/build --no-deps symlink_data

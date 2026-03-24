@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing consecutive_numbers.egg-info/PKG-INFO
+writing dependency_links to consecutive_numbers.egg-info/dependency_links.txt
+writing entry points to consecutive_numbers.egg-info/entry_points.txt
+writing requirements to consecutive_numbers.egg-info/requires.txt
+writing top-level names to consecutive_numbers.egg-info/top_level.txt
+reading manifest file 'consecutive_numbers.egg-info/SOURCES.txt'
+writing manifest file 'consecutive_numbers.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/student/Documents/pnimpra/lab3/ros2_ws/install/consecutive_numbers/lib/python3.10/site-packages/consecutive-numbers.egg-link (link to .)
+Installing random_numbers script to /home/student/Documents/pnimpra/lab3/ros2_ws/install/consecutive_numbers/lib/consecutive_numbers
+Installing sum_next_numbers script to /home/student/Documents/pnimpra/lab3/ros2_ws/install/consecutive_numbers/lib/consecutive_numbers
+
+Installed /home/student/Documents/pnimpra/lab3/ros2_ws/build/consecutive_numbers
+running symlink_data

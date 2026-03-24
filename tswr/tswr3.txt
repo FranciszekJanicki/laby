@@ -1,0 +1,27 @@
+Sterowanie MMAC (Multi-Model Adaptive Control):
+kilka modeli pod kilka sytuacji i korzystanie z danego modelu dynamiki (z ktorej wyznacza sie rownania stanu a wiec i parametry sterownika)
+do calkowania numerycznego najpopularniejsze sa: euler w tyl, euler w przod, tustin (trapez), runge-kutty 4 rzedu, runge-kutty 5 rzedu
+Model wybierami na podstawie jakiegos wskaznika jakosci bazujac na bledzie predykcji, ten model ktory w danej chwili (bazujac na aktualnym pomiaerze, poprzedniej predykcji i sterowania) 
+minimalizuje wskaznik ten wybieramy
+
+ADRC:
+x_prim = f(x) + b*u, gdzie f(x) jest nieliniowe, dlatego stosujemy liniowe popdstawienie
+u = (v - f(x))/b => po podstawieniu:
+x_prim = f(x) + v - f(x) = v
+Stosujemy obserwator stanu ktory predykuje stan, na podstawie bledu predykcji y - y_obs
+Rozszerzamy stan (tak sie robi przy obserwatorze) i przyjmujemy stan jako z = [x; f] 
+
+przyklad dla toczacego sie kola napedzanego silnikiem:
+omega_prim = 1/I * (tau - F(u, omega, ...))
+omega_prim = kPhi / I * u - F(u, omega, ...) / I, gdzie I to moment bezwladnosci, u to sterowanie (pr¹d na uzwojeniu), kPhi to constant, F(u, omega, ...)
+to funkcja stanu
+
+u = (v_ref - F(u, omega, ...)) / b
+
+rozszerzony stan z daje rozszerzone rownanie stanu:
+z_prim = [w_prim; F_prim] = [0 -1; 0 0] * [omega; F] + [b; 0] * u + [0; F_prim]
+y = [1 0] * [omega_prim; F]
+
+Luenberg-> z_hat_prim = A * z_hat + B * u + L(x - x_hat), gdzie hat to estymata
+blad estymaty e = z - z_hat
+H = A - L*C => e_prim = (A-L*C)*e = H*e, gdzie L to macierz wzmocnien obserwatora (odpowiednik wzmocnienia K sterownika stanu)

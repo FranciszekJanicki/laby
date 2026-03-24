@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+consecutive_numbers/__init__.py
+consecutive_numbers/random_numbers.py
+consecutive_numbers/sum_next_numbers.py
+consecutive_numbers.egg-info/PKG-INFO
+consecutive_numbers.egg-info/SOURCES.txt
+consecutive_numbers.egg-info/dependency_links.txt
+consecutive_numbers.egg-info/entry_points.txt
+consecutive_numbers.egg-info/requires.txt
+consecutive_numbers.egg-info/top_level.txt
+consecutive_numbers.egg-info/zip-safe
+resource/consecutive_numbers

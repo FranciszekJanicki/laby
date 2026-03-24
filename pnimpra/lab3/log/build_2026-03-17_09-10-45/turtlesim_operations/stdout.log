@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing turtlesim_operations.egg-info/PKG-INFO
+writing dependency_links to turtlesim_operations.egg-info/dependency_links.txt
+writing entry points to turtlesim_operations.egg-info/entry_points.txt
+writing requirements to turtlesim_operations.egg-info/requires.txt
+writing top-level names to turtlesim_operations.egg-info/top_level.txt
+reading manifest file 'turtlesim_operations.egg-info/SOURCES.txt'
+writing manifest file 'turtlesim_operations.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/student/Documents/pnimpra/lab3/ros2_ws/install/turtlesim_operations/lib/python3.10/site-packages/turtlesim-operations.egg-link (link to .)
+Installing turtle_distance script to /home/student/Documents/pnimpra/lab3/ros2_ws/install/turtlesim_operations/lib/turtlesim_operations
+Installing turtle_trajectory script to /home/student/Documents/pnimpra/lab3/ros2_ws/install/turtlesim_operations/lib/turtlesim_operations
+
+Installed /home/student/Documents/pnimpra/lab3/ros2_ws/build/turtlesim_operations
+running symlink_data

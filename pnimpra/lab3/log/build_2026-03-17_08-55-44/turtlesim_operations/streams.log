@@ -1,0 +1,17 @@
+[1.309s] Invoking command in '/home/student/Documents/pnimpra/lab3/ros2_ws/build/turtlesim_operations': PYTHONPATH=/home/student/Documents/pnimpra/lab3/ros2_ws/build/turtlesim_operations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Documents/pnimpra/lab3/ros2_ws/install/turtlesim_operations/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/Documents/pnimpra/lab3/ros2_ws/build/turtlesim_operations/build --no-deps symlink_data
+[1.604s] running develop
+[1.793s] running egg_info
+[1.794s] writing turtlesim_operations.egg-info/PKG-INFO
+[1.794s] writing dependency_links to turtlesim_operations.egg-info/dependency_links.txt
+[1.794s] writing entry points to turtlesim_operations.egg-info/entry_points.txt
+[1.794s] writing requirements to turtlesim_operations.egg-info/requires.txt
+[1.794s] writing top-level names to turtlesim_operations.egg-info/top_level.txt
+[1.795s] reading manifest file 'turtlesim_operations.egg-info/SOURCES.txt'
+[1.796s] writing manifest file 'turtlesim_operations.egg-info/SOURCES.txt'
+[1.799s] running build_ext
+[1.799s] Creating /home/student/Documents/pnimpra/lab3/ros2_ws/install/turtlesim_operations/lib/python3.10/site-packages/turtlesim-operations.egg-link (link to .)
+[1.802s] Installing turtle_distance script to /home/student/Documents/pnimpra/lab3/ros2_ws/install/turtlesim_operations/lib/turtlesim_operations
+[1.802s] 
+[1.803s] Installed /home/student/Documents/pnimpra/lab3/ros2_ws/build/turtlesim_operations
+[1.803s] running symlink_data
+[1.858s] Invoked command in '/home/student/Documents/pnimpra/lab3/ros2_ws/build/turtlesim_operations' returned '0': PYTHONPATH=/home/student/Documents/pnimpra/lab3/ros2_ws/build/turtlesim_operations/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Documents/pnimpra/lab3/ros2_ws/install/turtlesim_operations/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/Documents/pnimpra/lab3/ros2_ws/build/turtlesim_operations/build --no-deps symlink_data

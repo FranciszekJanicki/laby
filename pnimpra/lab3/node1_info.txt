@@ -1,0 +1,20 @@
+/minimal_publisher
+  Subscribers:
+
+  Publishers:
+    /parameter_events: rcl_interfaces/msg/ParameterEvent
+    /rosout: rcl_interfaces/msg/Log
+    /topic: std_msgs/msg/String
+  Service Servers:
+    /minimal_publisher/describe_parameters: rcl_interfaces/srv/DescribeParameters
+    /minimal_publisher/get_parameter_types: rcl_interfaces/srv/GetParameterTypes
+    /minimal_publisher/get_parameters: rcl_interfaces/srv/GetParameters
+    /minimal_publisher/list_parameters: rcl_interfaces/srv/ListParameters
+    /minimal_publisher/set_parameters: rcl_interfaces/srv/SetParameters
+    /minimal_publisher/set_parameters_atomically: rcl_interfaces/srv/SetParametersAtomically
+  Service Clients:
+
+  Action Servers:
+
+  Action Clients:
+

@@ -1,0 +1,18 @@
+[1.370s] Invoking command in '/home/student/Documents/pnimpra/lab3/ros2_ws/build/pub_and_sub': PYTHONPATH=/home/student/Documents/pnimpra/lab3/ros2_ws/build/pub_and_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Documents/pnimpra/lab3/ros2_ws/install/pub_and_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/Documents/pnimpra/lab3/ros2_ws/build/pub_and_sub/build --no-deps symlink_data
+[1.664s] running develop
+[1.882s] running egg_info
+[1.883s] writing pub_and_sub.egg-info/PKG-INFO
+[1.883s] writing dependency_links to pub_and_sub.egg-info/dependency_links.txt
+[1.883s] writing entry points to pub_and_sub.egg-info/entry_points.txt
+[1.883s] writing requirements to pub_and_sub.egg-info/requires.txt
+[1.883s] writing top-level names to pub_and_sub.egg-info/top_level.txt
+[1.886s] reading manifest file 'pub_and_sub.egg-info/SOURCES.txt'
+[1.886s] writing manifest file 'pub_and_sub.egg-info/SOURCES.txt'
+[1.887s] running build_ext
+[1.887s] Creating /home/student/Documents/pnimpra/lab3/ros2_ws/install/pub_and_sub/lib/python3.10/site-packages/pub-and-sub.egg-link (link to .)
+[1.888s] Installing listener script to /home/student/Documents/pnimpra/lab3/ros2_ws/install/pub_and_sub/lib/pub_and_sub
+[1.888s] Installing talker script to /home/student/Documents/pnimpra/lab3/ros2_ws/install/pub_and_sub/lib/pub_and_sub
+[1.889s] 
+[1.889s] Installed /home/student/Documents/pnimpra/lab3/ros2_ws/build/pub_and_sub
+[1.890s] running symlink_data
+[1.941s] Invoked command in '/home/student/Documents/pnimpra/lab3/ros2_ws/build/pub_and_sub' returned '0': PYTHONPATH=/home/student/Documents/pnimpra/lab3/ros2_ws/build/pub_and_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/Documents/pnimpra/lab3/ros2_ws/install/pub_and_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/student/Documents/pnimpra/lab3/ros2_ws/build/pub_and_sub/build --no-deps symlink_data

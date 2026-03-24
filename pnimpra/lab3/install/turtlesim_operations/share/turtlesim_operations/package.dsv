@@ -1,0 +1,9 @@
+source;share/turtlesim_operations/hook/pythonpath.ps1
+source;share/turtlesim_operations/hook/pythonpath.dsv
+source;share/turtlesim_operations/hook/pythonpath.sh
+source;share/turtlesim_operations/hook/ament_prefix_path.ps1
+source;share/turtlesim_operations/hook/ament_prefix_path.dsv
+source;share/turtlesim_operations/hook/ament_prefix_path.sh
+source;../../build/turtlesim_operations/share/turtlesim_operations/hook/pythonpath_develop.ps1
+source;../../build/turtlesim_operations/share/turtlesim_operations/hook/pythonpath_develop.dsv
+source;../../build/turtlesim_operations/share/turtlesim_operations/hook/pythonpath_develop.sh

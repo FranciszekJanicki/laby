@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/turtlesim_operations
+turtlesim_operations/__init__.py
+turtlesim_operations/turtle_distance.py
+turtlesim_operations/turtle_trajectory.py
+turtlesim_operations.egg-info/PKG-INFO
+turtlesim_operations.egg-info/SOURCES.txt
+turtlesim_operations.egg-info/dependency_links.txt
+turtlesim_operations.egg-info/entry_points.txt
+turtlesim_operations.egg-info/requires.txt
+turtlesim_operations.egg-info/top_level.txt
+turtlesim_operations.egg-info/zip-safe
